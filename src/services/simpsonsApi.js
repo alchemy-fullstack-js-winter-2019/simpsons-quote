@@ -1,7 +1,7 @@
 export const getQuote = () => {
   return fetch('https://thesimpsonsquoteapi.glitch.me/quotes')
     .then(res => {
-      return res.json()
+      return res.json() 
         .then(res => {
           return {
             quote: res[0].quote,
