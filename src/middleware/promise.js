@@ -6,6 +6,7 @@ export const LOAD_START = 'LOAD_START';
 export const LOAD_END = 'LOAD_END';
 export const PROMISE_ERROR = 'PROMISE_ERROR';
 
+
 export const promiseMiddleware = ({ dispatch }) => next => action => {
   const {
     type,
