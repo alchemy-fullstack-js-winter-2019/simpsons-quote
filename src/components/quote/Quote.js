@@ -11,7 +11,7 @@ function Quote({ quote, character, image }) {
   );
 }
 
-Quote.proTypes = {
+Quote.propTypes = {
   quote: PropTypes.string.isRequired,
   character: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired
