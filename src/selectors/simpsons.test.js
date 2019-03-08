@@ -29,5 +29,17 @@ describe('actions', () => {
     expect(results).toEqual('bart');
   });
 
+  it('gets a image', () => {
+    const state = {
+      simpsons: {
+        quote: 'hi',
+        character: 'bart',
+        image: 'nothing'
+      }
+    };
 
+    const results = getImage(state);
+
+    expect(results).toEqual('nothing');
+  });
 });
