@@ -1,7 +1,7 @@
 const initialState = {
-  quote: 'hi',
-  character: 'bart',
-  image: 'image'
+  quote: '',
+  character: '',
+  image: ''
 };
 
 export default function reducer(state = initialState, action) {
