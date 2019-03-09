@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote matches a snapshot 1`] = `
+<div>
+  <q>
+    quote
+  </q>
+  <p>
+    name
+  </p>
+  <img
+    src="image"
+  />
+  <button
+    onClick={[MockFunction]}
+  >
+    LOAD
+  </button>
+</div>
+`;
