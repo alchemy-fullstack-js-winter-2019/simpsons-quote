@@ -33,9 +33,13 @@ class SimpsonsQuote extends PureComponent {
   }
 
   render() {
-    const { quote, characterName, characterImage } = this.props;
+    const { quote, characterName, characterImage, fetch } = this.props;
     return (
+      <>
       <Quote quote={quote} characterName={characterName} characterImage={characterImage} />
+      <br/>
+      <Load fetch={fetch} />
+      </>
     );
   }
 
