@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote test matches a snapshot 1`] = `
+<div>
+  <h3>
+    I'm sleeping in the bath tub.
+  </h3>
+  <h4>
+    - 
+    Marge Simpson
+  </h4>
+  <p>
+    <img
+      src="https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FMargeSimpson.png?1497567512205"
+    />
+  </p>
+  <button
+    onClick={[MockFunction]}
+  >
+    Get New Quote
+  </button>
+</div>
+`;

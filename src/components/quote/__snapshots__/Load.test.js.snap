@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Load test matches a snapshot 1`] = `
+<button
+  onClick={[MockFunction]}
+>
+  Get New Quote
+</button>
+`;
