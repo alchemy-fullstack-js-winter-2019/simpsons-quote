@@ -5,6 +5,5 @@ export const FETCH_QUOTE = 'FETCH_QUOTE';
 
 export const fetchQuote = () => ({
   type: FETCH_QUOTE,
-  loadStart: FETCH_QUOTE_LOADING,
-  payload: getQuote
+  payload: getQuote()
 });

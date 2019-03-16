@@ -4,7 +4,7 @@ import SimpsonQuote from '../../containers/quotes/SimpsonQuote';
 export default function App() {
   return (
     <>
-      <h1> Simpson Quote</h1>
+      <h1>Simpson Quote</h1>
       <SimpsonQuote />
     </>
   );

@@ -1,23 +1,23 @@
 import { connect } from 'react-redux';
-import Quotes from '../../components/quote/Quote';
+import Quote from '../../components/quote/Quote';
 import { fetchQuote } from '../../actions/simpsons';
-import { getQuote, getCharacterImage, getCharacterName, isLoading } from '../../selectors/simpsons';
+import { getQuote, getCharacterName, getCharacterImage, isLoading } from '../../selectors/simpsons';
 import { withFetch } from '../../components/withFetch';
 
 const mapStateToProps = state => ({
-  quotes: getQuote(state),
-  characters: getCharacterName(state),
+  quote: getQuote(state),
+  name: getCharacterName(state),
   image: getCharacterImage(state),
   isLoading: isLoading(state)
 });
 
 const mapDispatchToProps = dispatch => ({
   fetch() {
-    dispatch(fetchQuote);
+    dispatch(fetchQuote());
   }
 });
 
-const SimpsonQuote = withFetch(Quotes);
+const SimpsonQuote = withFetch(Quote);
 
 export default connect(
   mapStateToProps,
