@@ -1,5 +1,6 @@
 import { connect } from 'react-redux';
 import Quote from '../../components/quote/Quote';
+// import Load from '../../components/quote/Load';
 import { fetchQuote } from '../../actions/simpsons';
 import { getQuote, getCharacterName, getCharacterImage, isLoading } from '../../selectors/simpsons';
 import { withFetch } from '../../components/withFetch';
