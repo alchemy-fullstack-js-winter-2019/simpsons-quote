@@ -4,9 +4,8 @@ import Load from './Load';
 
 describe('Load', () => {
   it('matches a snapshot', () => {
-    const fetch = jest.fn();
     const tree = renderer.create(
-      <Load button onClick={fetch}/>
+      <Load fetch={jest.fn()}/>
     ).toJSON();
     expect(tree).toMatchSnapshot();
   });

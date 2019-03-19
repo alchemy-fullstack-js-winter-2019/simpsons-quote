@@ -20,7 +20,6 @@ describe('simpsons reducer', () => {
         quote: 'Can/t we have one meeting that doesn/t end with us digging up a corpse?',
         character:'Mayor Quimby',
         image:'https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FMayorQuimby.png?1497627527799',
-        characterDirection:'Left',
         loading: false
       }]
     });
@@ -30,7 +29,6 @@ describe('simpsons reducer', () => {
       quote: 'Can/t we have one meeting that doesn/t end with us digging up a corpse?',
       character:'Mayor Quimby',
       image:'https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FMayorQuimby.png?1497627527799',
-      characterDirection:'Left',
       loading: false
     });
   });
