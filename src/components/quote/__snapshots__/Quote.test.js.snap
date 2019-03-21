@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote matches a snapshot 1`] = `
+<div>
+  <p />
+  <p />
+  <img />
+  <button>
+    LOAD
+  </button>
+</div>
+`;
